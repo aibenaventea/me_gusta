@@ -1,0 +1,126 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.container {
+    /* border: 3px solid red; */
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.encabezado {
+    /* border: 3px solid red; */
+    background-color: black;
+}
+.titulo {
+    color: whitesmoke;
+    margin: 20px 40px 20px 40px;
+}
+.cuadro-principal {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.subtitulo {
+    /* border: 3px solid red; */
+    text-align: center;
+    font-size: 45px;
+}
+.cuadro-secundario {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.selfbox {
+    border: 3px solid black;
+    height: 50%;
+    margin: 0px 20px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.selfbox-1 {
+    /* border: 3px solid red; */
+    border-radius: 50%;
+    margin: 30px 20px 30px 20px;
+    width: 250px;
+    height: 250px;
+    align-content: center;
+}
+.selfbox-2 {
+    /* border: 3px solid red; */
+    margin: 0px 20px 0px 20px;
+    font-size: 30px;
+}
+.selfbox-3 {
+    /* border: 3px solid red; */
+    margin: 30px 20px 30px 20px;
+    font-size: 40px;
+}
+.subseccion {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cuadro {
+    border: 3px solid black;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.subcuadro {
+    /* border: 3px solid red; */
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subcuadro-1 {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nombre {
+    /* border: 3px solid red; */
+    font-size: 40px;
+}
+.contador {
+    /* border: 3px solid red; */
+    margin: 0px 40px;
+    align-self: center;
+    font-size: 35px;
+}
+.cantidad-1, .cantidad-2, .cantidad-3 {
+    font-size: 35px;
+}
+.btn-1, .btn-2, .btn-3 {
+    /* border: 3px solid red; */
+    border: 3px solid black;
+    width: 100px;
+    background-color:rgb(238, 199, 100);
+    /* margin: 10px 20px; */
+    align-self: center;
+    box-shadow: 3px 3px 3px 2px black;
+    font-size: 35px;
+}
+.texto{
+    /* border: 3px solid red; */
+    margin: 40px 40px 40px 40px;
+    font-size: 35px;
+}
+.referencia {
+    font-size: 35px;
+}
